@@ -8,7 +8,7 @@ Szczegółowa lista elementów gotowych w 100%, częściowych i nieruszonych: [S
 
 ## Zagraj lokalnie
 
-Gotowy eksport znajduje się w `builds/web/`. Uruchom w folderze projektu:
+Pliki wynikowe w `builds/` oraz lokalne narzędzia w `.tools/` nie są przechowywane w Git. Po sklonowaniu repozytorium najpierw wykonaj eksport zgodnie z sekcją „Praca nad projektem”. Gotowy eksport powstaje w `builds/web/`. Następnie uruchom w folderze projektu:
 
 ```sh
 python3 tools/serve.py
@@ -49,7 +49,7 @@ Zapis jest lokalny dla przeglądarki i adresu strony (Godot `user://`, IndexedDB
 
 ## Praca nad projektem
 
-Otwórz `project.godot` w **Godot 4.5.1 Standard**, bez .NET. Zainstalowany lokalnie edytor Standard znajduje się w `.tools/Godot.app`. Folder `.tools` nie jest częścią repozytorium.
+Otwórz `project.godot` w **Godot 4.5.1 Standard**, bez .NET. Na komputerze, na którym powstał port, edytor Standard znajduje się w `.tools/Godot.app`. Po sklonowaniu repozytorium użyj własnej instalacji Godota i ustaw `GODOT_BIN` zgodnie z przykładem poniżej. Folder `.tools` nie jest częścią repozytorium.
 
 ```sh
 bash tools/build_web.sh
