@@ -2,6 +2,8 @@
 
 Osobny projekt przeglądarkowego portu Re:boot. **Etap 1 jest grywalny:** menu, oryginalna hala fabryczna, rozmowa z Jadwigą i trzy sektory konsoli serwisowej. Runtime korzysta wyłącznie z GDScript; nie wymaga C# ani .NET.
 
+Szczegółowa lista elementów gotowych w 100%, częściowych i nieruszonych: [STATUS_PORTU.md](STATUS_PORTU.md).
+
 ![Menu](docs/menu.png)
 
 ## Zagraj lokalnie
