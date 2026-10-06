@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Texture2D" path="res://Art/npc/Prezes_przodprawo.png" id="2_pvmbi"]
+[ext_resource type="Texture2D" path="res://Art/npc/Prezes_przodlewo.png" id="3_5f8nq"]
+[ext_resource type="Texture2D" path="res://Art/npc/Prezes_tylprawo.png" id="4_ih5p8"]
+[ext_resource type="Texture2D" path="res://Art/npc/Prezes_tyllewo.png" id="5_7ioo5"]
+[ext_resource type="Texture2D" path="res://Prefabs/Download/cyperpunk_gui/3 Icons/Icons/Icon_09.png" id="6_wgn82"]
+[ext_resource type="Texture2D" path="res://Prefabs/Download/cyperpunk_gui/3 Icons/Icons/Icon_24.png" id="8_ttshf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5f8nq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_pvmbi")
+}],
+"loop": true,
+"name": &"idle_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_5f8nq")
+}],
+"loop": true,
+"name": &"idle_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ih5p8")
+}],
+"loop": true,
+"name": &"idle_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_7ioo5")
+}],
+"loop": true,
+"name": &"idle_up",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oeoos"]
+size = Vector2(72, 45)
+
+[node name="NPC" type="Area2D"]
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_5f8nq")
+animation = &"idle_up"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 12)
+shape = SubResource("RectangleShape2D_oeoos")
+
+[node name="QuestMarker" type="Sprite2D" parent="."]
+position = Vector2(13, -24)
+texture = ExtResource("6_wgn82")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(18, -11)
+texture = ExtResource("8_ttshf")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -29.0
+offset_top = -46.0
+offset_right = 29.0
+offset_bottom = -32.0
+text = "Prezes"
+horizontal_alignment = 1

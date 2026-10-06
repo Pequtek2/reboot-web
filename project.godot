@@ -1,0 +1,33 @@
+config_version=5
+
+[application]
+config/name="Reboot Web"
+run/main_scene="res://scenes/menu.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+Game="*res://scripts/game.gd"
+Audio="*res://scripts/audio.gd"
+Overlay="*res://scripts/overlay.gd"
+
+[display]
+window/size/viewport_width=1400
+window/size/viewport_height=780
+window/size/window_width_override=1120
+window/size/window_height_override=624
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.063, 0.106, 0.149, 1)
+
+[audio]
+general/default_playback_type.web=1
+
+[layer_names]
+2d_physics/layer_3="VisionBlocker"

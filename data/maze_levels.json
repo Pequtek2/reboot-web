@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Odzysk fragmentów",
+    "brief": "Zbierz wszystkie chipy danych, potem wejdź do drzwi ze strzałką.",
+    "hint": "Najpierw sprawdź odnogi labiryntu. Wyjście przyjmie tylko kompletny zestaw danych.",
+    "map": [
+      "###########",
+      "#S..#....D#",
+      "#.#.#.###.#",
+      "#D#...#...#",
+      "#.#####.#.#",
+      "#...D...#E#",
+      "###########"
+    ]
+  },
+  {
+    "title": "Przebudowa indeksu",
+    "brief": "Wepchnij skrzynię w gniazdo, zbierz chipy danych i dotrzyj do wyjścia.",
+    "hint": "Bloki można tylko pchać. Obejdź blok od dołu, żeby przesunąć go na gniazdo. Z użyciem Cofnij naprawisz zły ruch.",
+    "map": [
+      "###########",
+      "#S....#..E#",
+      "#.#O#.#.#.#",
+      "#..B..#D#.#",
+      "#.....#...#",
+      "#D........#",
+      "###########"
+    ]
+  },
+  {
+    "title": "Odbudowa rdzenia",
+    "brief": "Ustaw obie skrzynie w gniazdach. Zbierz klucz i chipy, potem dotrzyj do wyjścia.",
+    "hint": "Najpierw ustaw oba bloki od dołu. Klucz leży za prawą odnogą. Pola ze znakiem ostrzeżenia są uszkodzone i nie można po nich chodzić.",
+    "map": [
+      "#############",
+      "#S....#D.G.E#",
+      "#.#O#.#.#####",
+      "#..B..#...#.#",
+      "#.....#.#.#K#",
+      "#..O....#...#",
+      "#..B..X.#.#.#",
+      "#D......#...#",
+      "#############"
+    ]
+  }
+]

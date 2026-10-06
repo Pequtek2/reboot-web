@@ -1,0 +1,42 @@
+TWÓRCY GRY
+
+Główny Programista
+Adam Latała
+
+Grafika i Animacje
+Julia Rzeźnik, Anna Bork
+
+Menu Główne i Główna Hala
+Adam Latała
+
+MiniGra 1 ("Cyber-Elektryk)
+Adam Latała
+
+Minigra 2 ("Gdzie jest ta śrubka")
+Anna Bork, Julia Rzeźnik
+
+Minigra 3 ("Naprawa bazy danych")
+Kacper Sidor
+
+Minigra 4 ("Test po angielsku")
+Jan Mazurek
+
+Dialogi
+Zaangażowaniem Julia Rzeźnik, 
+chęciami i duszą Karwat Mateusz 
+
+Grafika 
+Anna Bork, Adam Latała, Julia Rzeźnik
+
+Wizualizacja postaci
+Juleczka Rzeźnik 
+
+Zbierzność wygladu i imion postaci jest przypadkowa
+
+
+Dziękujemy za grę! :) 
+Liczymy na to, że spotkamy się na uczelni!
+Projekt Studenckiego Koła Naukowego Informatyków
+SKNI UP Lublin
+
+Re:boot Web — przeglądarkowy port, etap 1.
